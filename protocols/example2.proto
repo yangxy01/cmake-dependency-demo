@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package example;
+
+message HelloRequest2 {
+    string message = 1;
+}
+
+message HelloResponse2 {
+    string message = 1;
+}
